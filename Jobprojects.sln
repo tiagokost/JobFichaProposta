@@ -1,0 +1,201 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Job.FAC", "Job.FAC", "{F83DC557-C409-4A10-8610-089FE4776FBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-UI", "1-UI", "{B4D6659A-80CC-40D1-A28A-4ABD9B2F18E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-BLL", "2-BLL", "{5059A5AE-2837-4591-90C9-27FCE3867C97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-CUL", "3-CUL", "{10AD007A-D815-40A8-8FC9-0EE4DFE8E69F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-DAO", "4-DAO", "{484176D5-2302-436F-8A58-C2186813E9BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Testes", "5-Testes", "{DAD18698-67A8-43EE-8E87-702012ED138F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Bll", "2-BLL\Job.Fac.Bll\Job.Fac.Bll.csproj", "{BD6E32FA-7B96-473F-AD3A-4849042E8066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Bll.Testes", "5-Testes\Job.Fac.Bll.Testes\Job.Fac.Bll.Testes.csproj", "{7705B20D-BD48-459D-BFC2-9001DE6B4369}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelo", "Modelo", "{A405D475-DD40-4539-BA7D-37E0DE61016F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Bll.Modelo", "2-BLL\Modelo\Job.Fac.Bll.Modelo\Job.Fac.Bll.Modelo.csproj", "{6D198FD9-14B4-4B05-9DB7-0958653C2B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Bll.Fabrica", "2-BLL\Job.Fac.Bll.Fabrica\Job.Fac.Bll.Fabrica.csproj", "{674E58C0-F1D4-468A-B31E-8D2CF9011D01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Bll.Modulos", "2-BLL\Job.Fac.Bll.Modulos\Job.Fac.Bll.Modulos.csproj", "{68C70899-72B1-4552-B090-DB2A127B6984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Ui.Web", "1-UI\Job.Fac.Ui.Web\Job.Fac.Ui.Web.csproj", "{C5EC3647-8966-4061-BA8B-53D05895087D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Bll.Modelo.Testes", "5-Testes\Job.Fac.Bll.Modelo.Testes\Job.Fac.Bll.Modelo.Testes.csproj", "{A4DEEF5A-7FA4-41E0-A71D-D727D840846F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Bll.Fabrica.Testes", "5-Testes\Job.Fac.Bll.Fabrica.Testes\Job.Fac.Bll.Fabrica.Testes.csproj", "{FC95AA75-555B-4CDB-81DC-BD1540D93D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Dao", "4-DAO\Job.Fac.Dao\Job.Fac.Dao.csproj", "{2BC0049F-C0AB-402C-9F63-8BB175AAE7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Dao.EntityFramework", "4-DAO\Job.Fac.Dao.EntityFramework\Job.Fac.Dao.EntityFramework.csproj", "{66F7524A-18A8-452C-B8AB-BF46E562A18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Dao.Testes", "4-DAO\Job.Fac.Dao.Testes\Job.Fac.Dao.Testes.csproj", "{D9EF2ABC-05D5-445D-864C-91B87EF950CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Cul.EmailSmtp", "4-DAO\Job.Fac.Cul.EmailSmtp\Job.Fac.Cul.EmailSmtp.csproj", "{C8D70581-BF21-4623-BC32-1A9B9F6DF908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Ui.Nucleo", "1-UI\Job.Fac.Ui.Nucleo\Job.Fac.Ui.Nucleo.csproj", "{7B2DF133-FA95-4862-BFFA-24B1225E8291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Job.Fac.Ui.Web.Testes", "5-Testes\Job.Fac.Ui.Web.Testes\Job.Fac.Ui.Web.Testes.csproj", "{9F65B1EA-5736-4CE6-BA61-06C87485CAB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD6E32FA-7B96-473F-AD3A-4849042E8066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6E32FA-7B96-473F-AD3A-4849042E8066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6E32FA-7B96-473F-AD3A-4849042E8066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6E32FA-7B96-473F-AD3A-4849042E8066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7705B20D-BD48-459D-BFC2-9001DE6B4369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7705B20D-BD48-459D-BFC2-9001DE6B4369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7705B20D-BD48-459D-BFC2-9001DE6B4369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7705B20D-BD48-459D-BFC2-9001DE6B4369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D198FD9-14B4-4B05-9DB7-0958653C2B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D198FD9-14B4-4B05-9DB7-0958653C2B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D198FD9-14B4-4B05-9DB7-0958653C2B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D198FD9-14B4-4B05-9DB7-0958653C2B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674E58C0-F1D4-468A-B31E-8D2CF9011D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674E58C0-F1D4-468A-B31E-8D2CF9011D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674E58C0-F1D4-468A-B31E-8D2CF9011D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674E58C0-F1D4-468A-B31E-8D2CF9011D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68C70899-72B1-4552-B090-DB2A127B6984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68C70899-72B1-4552-B090-DB2A127B6984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68C70899-72B1-4552-B090-DB2A127B6984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68C70899-72B1-4552-B090-DB2A127B6984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EC3647-8966-4061-BA8B-53D05895087D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EC3647-8966-4061-BA8B-53D05895087D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EC3647-8966-4061-BA8B-53D05895087D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EC3647-8966-4061-BA8B-53D05895087D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DEEF5A-7FA4-41E0-A71D-D727D840846F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DEEF5A-7FA4-41E0-A71D-D727D840846F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DEEF5A-7FA4-41E0-A71D-D727D840846F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DEEF5A-7FA4-41E0-A71D-D727D840846F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC95AA75-555B-4CDB-81DC-BD1540D93D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC95AA75-555B-4CDB-81DC-BD1540D93D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC95AA75-555B-4CDB-81DC-BD1540D93D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC95AA75-555B-4CDB-81DC-BD1540D93D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC0049F-C0AB-402C-9F63-8BB175AAE7F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC0049F-C0AB-402C-9F63-8BB175AAE7F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC0049F-C0AB-402C-9F63-8BB175AAE7F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC0049F-C0AB-402C-9F63-8BB175AAE7F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F7524A-18A8-452C-B8AB-BF46E562A18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F7524A-18A8-452C-B8AB-BF46E562A18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F7524A-18A8-452C-B8AB-BF46E562A18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F7524A-18A8-452C-B8AB-BF46E562A18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EF2ABC-05D5-445D-864C-91B87EF950CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EF2ABC-05D5-445D-864C-91B87EF950CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EF2ABC-05D5-445D-864C-91B87EF950CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EF2ABC-05D5-445D-864C-91B87EF950CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D70581-BF21-4623-BC32-1A9B9F6DF908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D70581-BF21-4623-BC32-1A9B9F6DF908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D70581-BF21-4623-BC32-1A9B9F6DF908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D70581-BF21-4623-BC32-1A9B9F6DF908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2DF133-FA95-4862-BFFA-24B1225E8291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2DF133-FA95-4862-BFFA-24B1225E8291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2DF133-FA95-4862-BFFA-24B1225E8291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2DF133-FA95-4862-BFFA-24B1225E8291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F65B1EA-5736-4CE6-BA61-06C87485CAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F65B1EA-5736-4CE6-BA61-06C87485CAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F65B1EA-5736-4CE6-BA61-06C87485CAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F65B1EA-5736-4CE6-BA61-06C87485CAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4D6659A-80CC-40D1-A28A-4ABD9B2F18E8} = {F83DC557-C409-4A10-8610-089FE4776FBD}
+		{5059A5AE-2837-4591-90C9-27FCE3867C97} = {F83DC557-C409-4A10-8610-089FE4776FBD}
+		{10AD007A-D815-40A8-8FC9-0EE4DFE8E69F} = {F83DC557-C409-4A10-8610-089FE4776FBD}
+		{484176D5-2302-436F-8A58-C2186813E9BF} = {F83DC557-C409-4A10-8610-089FE4776FBD}
+		{DAD18698-67A8-43EE-8E87-702012ED138F} = {F83DC557-C409-4A10-8610-089FE4776FBD}
+		{BD6E32FA-7B96-473F-AD3A-4849042E8066} = {5059A5AE-2837-4591-90C9-27FCE3867C97}
+		{7705B20D-BD48-459D-BFC2-9001DE6B4369} = {DAD18698-67A8-43EE-8E87-702012ED138F}
+		{A405D475-DD40-4539-BA7D-37E0DE61016F} = {5059A5AE-2837-4591-90C9-27FCE3867C97}
+		{6D198FD9-14B4-4B05-9DB7-0958653C2B76} = {A405D475-DD40-4539-BA7D-37E0DE61016F}
+		{674E58C0-F1D4-468A-B31E-8D2CF9011D01} = {5059A5AE-2837-4591-90C9-27FCE3867C97}
+		{68C70899-72B1-4552-B090-DB2A127B6984} = {5059A5AE-2837-4591-90C9-27FCE3867C97}
+		{C5EC3647-8966-4061-BA8B-53D05895087D} = {B4D6659A-80CC-40D1-A28A-4ABD9B2F18E8}
+		{A4DEEF5A-7FA4-41E0-A71D-D727D840846F} = {DAD18698-67A8-43EE-8E87-702012ED138F}
+		{FC95AA75-555B-4CDB-81DC-BD1540D93D88} = {DAD18698-67A8-43EE-8E87-702012ED138F}
+		{2BC0049F-C0AB-402C-9F63-8BB175AAE7F9} = {484176D5-2302-436F-8A58-C2186813E9BF}
+		{66F7524A-18A8-452C-B8AB-BF46E562A18C} = {484176D5-2302-436F-8A58-C2186813E9BF}
+		{D9EF2ABC-05D5-445D-864C-91B87EF950CB} = {DAD18698-67A8-43EE-8E87-702012ED138F}
+		{C8D70581-BF21-4623-BC32-1A9B9F6DF908} = {10AD007A-D815-40A8-8FC9-0EE4DFE8E69F}
+		{7B2DF133-FA95-4862-BFFA-24B1225E8291} = {B4D6659A-80CC-40D1-A28A-4ABD9B2F18E8}
+		{9F65B1EA-5736-4CE6-BA61-06C87485CAB4} = {DAD18698-67A8-43EE-8E87-702012ED138F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 15
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://codeteamprojects.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 1-UI\\Job.Fac.Ui.Web\\Job.Fac.Ui.Web.csproj
+		SccProjectTopLevelParentUniqueName1 = Jobprojects.sln
+		SccProjectName1 = 1-UI/Job.Fac.Ui.Web
+		SccLocalPath1 = 1-UI\\Job.Fac.Ui.Web
+		SccProjectUniqueName2 = 2-BLL\\Job.Fac.Bll.Fabrica\\Job.Fac.Bll.Fabrica.csproj
+		SccProjectTopLevelParentUniqueName2 = Jobprojects.sln
+		SccProjectName2 = 2-BLL/Job.Fac.Bll.Fabrica
+		SccLocalPath2 = 2-BLL\\Job.Fac.Bll.Fabrica
+		SccProjectUniqueName3 = 2-BLL\\Job.Fac.Bll.Modulos\\Job.Fac.Bll.Modulos.csproj
+		SccProjectTopLevelParentUniqueName3 = Jobprojects.sln
+		SccProjectName3 = 2-BLL/Job.Fac.Bll.Modulos
+		SccLocalPath3 = 2-BLL\\Job.Fac.Bll.Modulos
+		SccProjectUniqueName4 = 2-BLL\\Job.Fac.Bll\\Job.Fac.Bll.csproj
+		SccProjectTopLevelParentUniqueName4 = Jobprojects.sln
+		SccProjectName4 = 2-BLL/Job.Fac.Bll
+		SccLocalPath4 = 2-BLL\\Job.Fac.Bll
+		SccProjectUniqueName5 = 2-BLL\\Modelo\\Job.Fac.Bll.Modelo\\Job.Fac.Bll.Modelo.csproj
+		SccProjectTopLevelParentUniqueName5 = Jobprojects.sln
+		SccProjectName5 = 2-BLL/Modelo/Job.Fac.Bll.Modelo
+		SccLocalPath5 = 2-BLL\\Modelo\\Job.Fac.Bll.Modelo
+		SccProjectUniqueName6 = 4-DAO\\Job.Fac.Dao.EntityFramework\\Job.Fac.Dao.EntityFramework.csproj
+		SccProjectTopLevelParentUniqueName6 = Jobprojects.sln
+		SccProjectName6 = 4-DAO/Job.Fac.Dao.EntityFramework
+		SccLocalPath6 = 4-DAO\\Job.Fac.Dao.EntityFramework
+		SccProjectUniqueName7 = 4-DAO\\Job.Fac.Dao.Testes\\Job.Fac.Dao.Testes.csproj
+		SccProjectTopLevelParentUniqueName7 = Jobprojects.sln
+		SccProjectName7 = 4-DAO/Job.Fac.Dao.Testes
+		SccLocalPath7 = 4-DAO\\Job.Fac.Dao.Testes
+		SccProjectUniqueName8 = 4-DAO\\Job.Fac.Dao\\Job.Fac.Dao.csproj
+		SccProjectTopLevelParentUniqueName8 = Jobprojects.sln
+		SccProjectName8 = 4-DAO/Job.Fac.Dao
+		SccLocalPath8 = 4-DAO\\Job.Fac.Dao
+		SccProjectUniqueName9 = 5-Testes\\Job.Fac.Bll.Fabrica.Testes\\Job.Fac.Bll.Fabrica.Testes.csproj
+		SccProjectTopLevelParentUniqueName9 = Jobprojects.sln
+		SccProjectName9 = 5-Testes/Job.Fac.Bll.Fabrica.Testes
+		SccLocalPath9 = 5-Testes\\Job.Fac.Bll.Fabrica.Testes
+		SccProjectUniqueName10 = 5-Testes\\Job.Fac.Bll.Modelo.Testes\\Job.Fac.Bll.Modelo.Testes.csproj
+		SccProjectTopLevelParentUniqueName10 = Jobprojects.sln
+		SccProjectName10 = 5-Testes/Job.Fac.Bll.Modelo.Testes
+		SccLocalPath10 = 5-Testes\\Job.Fac.Bll.Modelo.Testes
+		SccProjectUniqueName11 = 5-Testes\\Job.Fac.Bll.Testes\\Job.Fac.Bll.Testes.csproj
+		SccProjectTopLevelParentUniqueName11 = Jobprojects.sln
+		SccProjectName11 = 5-Testes/Job.Fac.Bll.Testes
+		SccLocalPath11 = 5-Testes\\Job.Fac.Bll.Testes
+		SccProjectUniqueName12 = 4-DAO\\Job.Fac.Cul.EmailSmtp\\Job.Fac.Cul.EmailSmtp.csproj
+		SccProjectTopLevelParentUniqueName12 = Jobprojects.sln
+		SccProjectName12 = 4-DAO/Job.Fac.Cul.EmailSmtp
+		SccLocalPath12 = 4-DAO\\Job.Fac.Cul.EmailSmtp
+		SccProjectUniqueName13 = 1-UI\\Job.Fac.Ui.Nucleo\\Job.Fac.Ui.Nucleo.csproj
+		SccProjectTopLevelParentUniqueName13 = Jobprojects.sln
+		SccProjectName13 = 1-UI/Job.Fac.Ui.Nucleo
+		SccLocalPath13 = 1-UI\\Job.Fac.Ui.Nucleo
+		SccProjectUniqueName14 = 5-Testes\\Job.Fac.Ui.Web.Testes\\Job.Fac.Ui.Web.Testes.csproj
+		SccProjectTopLevelParentUniqueName14 = Jobprojects.sln
+		SccProjectName14 = 5-Testes/Job.Fac.Ui.Web.Testes
+		SccLocalPath14 = 5-Testes\\Job.Fac.Ui.Web.Testes
+	EndGlobalSection
+EndGlobal

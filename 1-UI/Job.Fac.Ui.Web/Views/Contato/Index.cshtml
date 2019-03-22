@@ -1,0 +1,55 @@
+﻿@model Job.Fac.Ui.Web.Models.ContatoModeloVisao
+
+@{
+    ViewBag.Title = "Deixe seu contato.";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2 class="ui teal image header">
+    <!-- <img class="image" src="assets/images/logo.png">-->
+    <div class="content">
+        Quero receber mais informações!
+    </div>
+</h2>
+@using (Html.BeginForm("Registrar", "Contato", FormMethod.Post, new { @class = "ui large form" }))
+{
+    <div class="ui stacked segment">
+        @Html.AntiForgeryToken()
+
+        @Html.ValidationSummary(true, "", new { @class = "" })
+        <div class="field">
+            <div class="ui left icon input">
+                <i class="lock icon"></i>
+                @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @placeholder = "Nome e sobrenome" } })
+                @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "" })
+            </div>
+        </div>
+        <div class="field">
+            <div class="ui left icon input">
+                <i class="lock icon"></i>
+                @Html.EditorFor(model => model.Telefone, new { htmlAttributes = new { @placeholder = "Telefone" } })
+                @Html.ValidationMessageFor(model => model.Telefone, "", new { @class = "" })
+            </div>
+        </div>
+
+
+        <div class="field">
+            <div class="ui left icon input">
+                <i class="lock icon"></i>
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @placeholder = "E-mail" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "" })
+            </div>
+
+        </div>
+        <div class="field">
+            <button class="ui fluid teal ui button" type="submit">Enviar</button>
+        </div>
+    </div>
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/semantic-ui")
+}
